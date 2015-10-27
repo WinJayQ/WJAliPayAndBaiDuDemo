@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="y2O-b8-EfQ">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--主页-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ust-u4-0dm">
+                                <rect key="frame" x="102" y="163" width="122" height="41"/>
+                                <state key="normal" title="百度地图Demo"/>
+                                <connections>
+                                    <segue destination="Auq-Kc-Swu" kind="push" id="3vO-uW-TSS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tL0-KH-RS7">
+                                <rect key="frame" x="117" y="254" width="86" height="30"/>
+                                <state key="normal" title="支付宝Demo"/>
+                                <connections>
+                                    <segue destination="h7l-16-xFf" kind="push" id="y0g-Jo-F6P"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="主页" id="Fs3-AD-IbC"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="562" y="319"/>
+        </scene>
+        <!--支付宝Demo-->
+        <scene sceneID="rYB-If-ECn">
+            <objects>
+                <viewController id="h7l-16-xFf" customClass="AliPayViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="RsA-lx-F6X"/>
+                        <viewControllerLayoutGuide type="bottom" id="w8i-RO-ptH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="rSN-5M-tJ5">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cap-tu-Jfc">
+                                <rect key="frame" x="65" y="215" width="176" height="39"/>
+                                <state key="normal" title="测试数据，打赏0.01元"/>
+                                <connections>
+                                    <action selector="Pay:" destination="h7l-16-xFf" eventType="touchUpInside" id="n7Q-k9-6Wb"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="支付宝Demo" id="0UG-Qx-rMz"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YqA-me-CVa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1066" y="680"/>
+        </scene>
+        <!--百度地图Demo-->
+        <scene sceneID="zCn-xA-X3p">
+            <objects>
+                <viewController id="Auq-Kc-Swu" customClass="BaiDuMapViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="i4F-yS-tNl"/>
+                        <viewControllerLayoutGuide type="bottom" id="72x-En-lVR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cHh-oZ-DWe">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oym-oy-RiP" userLabel="Control View">
+                                <rect key="frame" x="0.0" y="64" width="320" height="135"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P1u-e0-2ZE">
+                                        <rect key="frame" x="234" y="8" width="60" height="30"/>
+                                        <state key="normal" title="使用平移"/>
+                                        <connections>
+                                            <action selector="AllowMove:" destination="Auq-Kc-Swu" eventType="touchUpInside" id="O68-XD-WpN"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GqM-AK-XKa">
+                                        <rect key="frame" x="228" y="46" width="50" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                        <state key="normal" title="-"/>
+                                        <connections>
+                                            <action selector="ZoomOut:" destination="Auq-Kc-Swu" eventType="touchUpInside" id="nu3-n8-KiJ"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="缩放：" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5hN-MI-xyM">
+                                        <rect key="frame" x="24" y="52" width="48" height="19.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kzb-Sh-IEX">
+                                        <rect key="frame" x="24" y="8" width="30" height="30"/>
+                                        <state key="normal" title="定位"/>
+                                        <connections>
+                                            <action selector="LoctionCurPoition:" destination="Auq-Kc-Swu" eventType="touchUpInside" id="KN1-Gg-bVL"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3bL-Om-4IH">
+                                        <rect key="frame" x="249" y="91" width="30" height="30"/>
+                                        <state key="normal" title="导航"/>
+                                        <connections>
+                                            <action selector="NavigationPotion:" destination="Auq-Kc-Swu" eventType="touchUpInside" id="eXi-mb-LMy"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aCo-Wp-cQ1">
+                                        <rect key="frame" x="123" y="47" width="50" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <state key="normal" title="+"/>
+                                        <connections>
+                                            <action selector="ZoomIn:" destination="Auq-Kc-Swu" eventType="touchUpInside" id="IGU-V5-Uf7"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="77E-lI-F6M">
+                                        <rect key="frame" x="126" y="91" width="55" height="30"/>
+                                        <state key="normal" title="POI搜索"/>
+                                        <connections>
+                                            <action selector="SearchPoi:" destination="Auq-Kc-Swu" eventType="touchUpInside" id="NTg-o3-2UO"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RV2-Rv-4Vl">
+                                        <rect key="frame" x="123" y="8" width="60" height="30"/>
+                                        <state key="normal" title="使用跟随"/>
+                                        <connections>
+                                            <action selector="FollowCurPotion:" destination="Auq-Kc-Swu" eventType="touchUpInside" id="gtQ-Dg-oDX"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dRb-g7-Gdd">
+                                        <rect key="frame" x="24" y="91" width="60" height="30"/>
+                                        <state key="normal" title="添加标注"/>
+                                        <connections>
+                                            <action selector="AddImageLabel:" destination="Auq-Kc-Swu" eventType="touchUpInside" id="ekZ-wy-H4j"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.80142709040000004" green="0.86590529019999996" blue="0.88235294119999996" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="smC-qV-jml" userLabel="MyMap View" customClass="BMKMapView">
+                                <rect key="frame" x="0.0" y="199" width="320" height="369"/>
+                                <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="百度地图Demo" id="fqO-rB-xXC"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="myMapView" destination="smC-qV-jml" id="eCQ-Ba-g6A"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zXk-n0-1vP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1066" y="-20"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="R6y-7j-rCB">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="y2O-b8-EfQ" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="wR3-k8-osN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="gQW-3g-p3h"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SX5-1C-44o" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="100" y="319"/>
+        </scene>
+    </scenes>
+</document>

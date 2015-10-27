@@ -66,9 +66,9 @@
     /*============================================================================*/
     /*=======================需要填写商户app申请的===================================*/
     /*============================================================================*/
-    NSString *partner = @"2088811955133873";
-    NSString *seller = @"pay@ginha.com";
-    NSString *privateKey = @"MIICdgIBADANBgkqhkiG9w0BAQEFAASCAmAwggJcAgEAAoGBAMeA0sy4ia6KsMedy+hbCJPAvuN6mCoHmb3wwJRVaGXIjMqzAUlcCPL5ZI6ks6DhdZdtzBrMUSmzYQDaXtY24vkF835MxutHSMxb6WJSiopXuz3hhfDlN44gWaCZAb2LwLhCFWSKHWMLjaCwDru7VUUm/frpDA92sPaJnTJY6tWXAgMBAAECgYBnlGDd3WnObz99RFYb2zfGzqnNHVdnau7NiPPTj8xWHBvNGccvOVOEIyusS6Lfgm81IdJ4j2AMUI+qi7X1biXEzZ4Oymk3hR0f0QdzBr6XfL5GNuB48tuG6uiU3IWwdPrFn7k0ODQXi4QqusCwitUFq7fCyTEosgTxgS4kg3yvsQJBAPNBqwy1rSZTsSflZDnh9bPoEtceSCO0/76f1jz+iIXWuoPy0ztBzf51Scsy7+YPhirXufVaa7ZnFgEwWG4cDP0CQQDR9GBcR/CxWL4askzeGORdmdDLEMrX1i0B3PFWtjPf3Xt5cBOnAKkka6tsQjqGVmZOOMXu1YNn0//+9KAfjfsjAkABd1Tbl8C6aWi479YBz03WzsBGUaVnqbCc6oO1DGewPtIS94S0Z7ohHX3bXqw5e8B4Q6KYSvo5ODfWu/7ccwjVAkA+cdSHHc50sNQ51HYQSI8DV9BF1US/VTAlsbUF+UMMfi9POwpdTVEBSBTAKiKF+gSLl08nbdGbe+5TwiYtvGjJAkEA6JhU71vtdiqLgmMSXdRJvF0HCGFQW4Z0JWRF5/Vi8C1xaurnfBFPzL+Kiiey/9sRBDf+nzeCD0kzuunFe7uKVQ==";
+    NSString *partner = @"20888xxxxxxxx";//签约的支付宝账号对应的支付宝唯一用户号。
+    NSString *seller = @"xx@163.com";//支付宝收款账号,手机号码或邮箱格式。
+    NSString *privateKey = @"MIICdgIBADANBgkqhkiG9w0BAQEFAASCAmAwggJcAgEAAoGBAMeA0sy4ia6KsMedy+hbCJPAvuN6mCoHmb3wwJRVaGXIjMqzAUlcCPL5ZI6ks6DhdZdtzBrMUSmzYQDaXtY24vkF835MxutHSMxb6WJSiopXuz3hhfDlN44gWaCZAb2LwLhCFWSKHWMLjaCwDru7VUxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"; //商户方的私钥,pkcs8 格式。
     /*============================================================================*/
     /*============================================================================*/
     /*============================================================================*/

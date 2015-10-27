@@ -68,7 +68,7 @@
     /*============================================================================*/
     NSString *partner = @"20888xxxxxxxx";//签约的支付宝账号对应的支付宝唯一用户号。
     NSString *seller = @"xx@163.com";//支付宝收款账号,手机号码或邮箱格式。
-    NSString *privateKey = @"MIICdgIBADANBgkqhkiG9w0BAQEFAASCAmAwggJcAgEAAoGBAMeA0sy4ia6KsMedy+hbCJPAvuN6mCoHmb3wwJRVaGXIjMqzAUlcCPL5ZI6ks6DhdZdtzBrMUSmzYQDaXtY24vkF835MxutHSMxb6WJSiopXuz3hhfDlN44gWaCZAb2LwLhCFWSKHWMLjaCwDru7VUxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"; //商户方的私钥,pkcs8 格式。
+    NSString *privateKey = @"MIICdgIBADANBgkqhkiG9w0BAQEFAASCAmAwggJcAgEAAoGBAMeA0sy4ia6KsMedy+hbCJPAvuN6mCoHmb3wwJRVaGXIjMqzAUlcCPL5ZI6ks6DhdZdtzBrMUSmzYQDaXtY24vkF835MxutHSMxb6WJSiopXuz3hhfDlN44gWaCZAb2LwLhCFWSKHWMLjaCwDru7VUxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"; //商户方的私钥,pkcs8 格式。
     /*============================================================================*/
     /*============================================================================*/
     /*============================================================================*/
